@@ -19,7 +19,7 @@ public class Controller {
 //    @Autowired
 //   private  Response response;   
 //    
-    @RequestMapping("/Details")
+    @RequestMapping("/details")
     public Response Sample(
     	@RequestParam(value = "Name", defaultValue = "Rajesh") String Name,
         @RequestParam(value = "Address ", defaultValue = "PQR") String Address ,
